@@ -1,0 +1,98 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "What does the datasheet tell about GPIO",
+      "id": 1,
+      "attr": {
+        "position": [
+          -454,
+          -70,
+          1
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "The option to use APB and AHB bus",
+          "id": 3
+        },
+        "11": {
+          "title": "steps to use the GPIO are mentioned",
+          "id": 4,
+          "attr": {
+            "position": [
+              174,
+              95.00000762939453,
+              1
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "step to configure GPIOAFSEL",
+              "id": 5,
+              "ideas": {
+                "1": {
+                  "title": "THe PMCx field must be programed, GPIOPCTL",
+                  "id": 7,
+                  "ideas": {
+                    "1": {
+                      "title": "GPIOCTL is used in conjunction with GPIO AFSEL",
+                      "id": 11,
+                      "ideas": {
+                        "1": {
+                          "title": "what does the note mean in this",
+                          "id": 12,
+                          "attr": {
+                            "position": [
+                              90.60000000000002,
+                              109.39998626708984,
+                              1
+                            ]
+                          }
+                        },
+                        "2": {
+                          "title": "seems this does some mux operation for the alternate functions",
+                          "id": 13
+                        },
+                        "1.5": {
+                          "title": "need to come across a scenario to use this",
+                          "id": 14
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "0.5": {
+          "title": "Table which talked about Open drain output",
+          "id": 9,
+          "attr": {
+            "position": [
+              153,
+              -131.99999237060547,
+              2
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "Open drain output: the output from micro controller is either zero or floating",
+              "id": 10,
+              "attr": {
+                "position": [
+                  242,
+                  -19,
+                  1
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": "What does the datasheet tell about GPIO"
+}
