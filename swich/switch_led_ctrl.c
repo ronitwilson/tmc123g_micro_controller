@@ -9,11 +9,13 @@ GPIO A dir -> 0x40004000 offset 0x400 -> set ~20
 
 #define GPIO_PORTA_BIT_5 (*((volatile unsigned long *)0x40004080))
 #define GPIO_CLOCK (*((volatile unsigned long *)0x400FE608))
-#define GPIO_A_DIR (*((volatile unsigned long *)0x40004512))
-#define GPIO_A_ENABLE (*((volatile unsigned long *)0x40004400))
+#define GPIO_A_DIR (*((volatile unsigned long *)0x40004400))
+#define GPIO_A_ENABLE (*((volatile unsigned long *)0x4000451c))
 
 int main() {
 	GPIO_CLOCK |= 0x00000001;
+	volatile unsigned long delay;
+	delay = GPIO_CLOCK;
 	GPIO_A_DIR &= ~0x20;
 	GPIO_A_ENABLE |= 0x20;
 	
