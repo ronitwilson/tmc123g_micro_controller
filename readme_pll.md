@@ -7,4 +7,6 @@ https://users.ece.utexas.edu/~valvano/Volume1/E-Book/C10_FiniteStateMachines.htm
 * PLL
     * more work, but more energy spend
     * less work but less power used
-* 
+
+# the PLL registers picture
+![image](https://github.com/ronitwilson/tmc123g_micro_controller/assets/9934360/937513e1-fd73-4113-beb7-2207111debf0)
