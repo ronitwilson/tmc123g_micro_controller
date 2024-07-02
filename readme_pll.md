@@ -10,3 +10,5 @@ https://users.ece.utexas.edu/~valvano/Volume1/E-Book/C10_FiniteStateMachines.htm
 
 # the PLL registers picture
 ![image](https://github.com/ronitwilson/tmc123g_micro_controller/assets/9934360/937513e1-fd73-4113-beb7-2207111debf0)
+
+## Higher n means lesser speed
